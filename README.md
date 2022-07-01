@@ -15,7 +15,7 @@ Add this line to your .zshenv, .bashrc or .bash-profile:
 
 ```zsh
 git clone git@github.com:RobertDeRose/virtualenv-autodetect.git $ZSH_CUSTOM/plugins/virtualenv-autodetect
-sed -Ei 's/plugins=\((.*)\)/plugins=\(\1 virtual-autodetect\)/' $HOME/.zshrc
+sed -Ei 's/plugins=\((.*)\)/plugins=\(\1 virtualenv-autodetect\)/' $HOME/.zshrc
 ```
 
 ## What it does
